@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{6a4bbf66-92d1-4936-b612-45334b9bb470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timer">
+      <UniqueIdentifier>{3407b9a7-f38c-48c6-a704-4c422aeb2bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Element_Types">
+      <UniqueIdentifier>{13406639-8fb5-4f14-ad9e-c0e2234bcfa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{20267cba-78bf-4190-85c4-7e8b4c6e0fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{d38aad54-3b90-4393-adad-362383eaf86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{6bd78224-e055-452d-899f-8420a6bb3722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderGL">
+      <UniqueIdentifier>{56df5d35-be5d-457a-ad09-d71fd10750df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderGL\ModelLoadManager">
+      <UniqueIdentifier>{395c6dd7-2dd7-42a5-a8b5-b42bcf7d08bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderGL\TextureLoader">
+      <UniqueIdentifier>{310f257b-19ee-41e2-a5d8-a585d5863bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileLoaders">
+      <UniqueIdentifier>{1ff45487-5168-4fe5-b159-fc357c5a0ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileLoaders\PlyStuff">
+      <UniqueIdentifier>{c1eba583-93cc-4971-83bb-581a3a0532ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileLoaders\FBXStuff">
+      <UniqueIdentifier>{94ffe5c9-3b62-447e-a336-f3ee5f079f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mediators">
+      <UniqueIdentifier>{83399f8a-b33c-40c2-9b17-bfdc7d54ac26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGl_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Vec3d.cpp">
+      <Filter>Source Files\Element_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="m_timerFunction.cpp">
+      <Filter>Source Files\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="m_global.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="m_GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_CloseCallback.cpp">
+      <Filter>Source Files\RenderGL</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_DisplayCallback.cpp">
+      <Filter>Source Files\RenderGL</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_KeyBoardCallback.cpp">
+      <Filter>Source Files\RenderGL</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_ReshapeCallback.cpp">
+      <Filter>Source Files\RenderGL</Filter>
+    </ClCompile>
+    <ClCompile Include="m_VertexTypes.cpp">
+      <Filter>Source Files\Element_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Triangle.cpp">
+      <Filter>Source Files\Element_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_Init.cpp">
+      <Filter>Source Files\RenderGL</Filter>
+    </ClCompile>
+    <ClCompile Include="m_ModelLoadManager.cpp">
+      <Filter>Source Files\RenderGL\ModelLoadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="m_plyOps.cpp">
+      <Filter>Source Files\FileLoaders\PlyStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_SetShaderUniformVariables.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Source Files\RenderGL\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXLoader.cpp">
+      <Filter>Source Files\FileLoaders\FBXStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator.cpp">
+      <Filter>Source Files\Mediators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m_Vec3d.h">
+      <Filter>Source Files\Element_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="m_timerFunction.h">
+      <Filter>Source Files\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="m_global.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="m_GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="m_VertexTypes.h">
+      <Filter>Source Files\Element_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Triangle.h">
+      <Filter>Source Files\Element_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="m_ModelLoadManager.h">
+      <Filter>Source Files\RenderGL\ModelLoadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="m_plyOps.h">
+      <Filter>Source Files\FileLoaders\PlyStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Vector4f.h">
+      <Filter>Source Files\Element_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="IMediator.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Source Files\RenderGL\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="glut_SetShaderUniformVariables.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXLoader.h">
+      <Filter>Source Files\FileLoaders\FBXStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDataINFo.h">
+      <Filter>Source Files\FileLoaders\PlyStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>Source Files\Mediators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleShader.fragment.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="SimpleShader.vertex.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
